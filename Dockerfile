@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:12
 
 RUN apt-get -y update \
     && apt-get -y install chromium
